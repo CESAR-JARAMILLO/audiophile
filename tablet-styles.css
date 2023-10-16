@@ -1,0 +1,63 @@
+/* Media query for tablet devices with a minimum width of 768px */
+@media (min-width: 768px) {
+  .header {
+    padding: 32px 40px;
+  }
+
+  .hero {
+    background-image: url('images/home/tablet/image-header.jpg');
+    height: 720px;
+  }
+
+  .hero-content{
+    width: 400px;
+  }
+
+  .hero-content h1 {
+    font-size: 56px;
+  }
+
+  .hero-content h2 {
+    font-size: 16px;
+  }
+
+  .hero-content p {
+    margin-bottom: 40px;
+  }
+
+  /* <!-- Product Group --> */
+  .product-group {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 40px;
+    margin-top: 148px;
+    margin-bottom: 96px;
+  }
+
+  .product-card {
+    width: 33%;
+  }
+  /* <!-- Featured Product --> */
+  .featured-product {
+    margin: 0 40px;
+    gap: 64px;
+  }
+  
+  .featured-product-image 
+  img {
+    height: 238px;
+    width: 198px;
+  }
+  
+  .featured-product-content h3 {
+    font-size: 56px;
+    line-height: 58px;
+    width: 250px;
+  }
+  
+  .featured-product-content {
+    width: 350px;
+  }
+  
+}
