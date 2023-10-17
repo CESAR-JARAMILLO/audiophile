@@ -85,6 +85,7 @@ h2 {
 }
 
 .product-card {
+  border-radius: 10px;
   background-color: #F1F1F1;
   width: 328px;
   height: 165px;
@@ -140,14 +141,14 @@ a {
 
 /* <!-- Featured Product --> */
 .featured-product {
+  border-radius: 10px;
   background-color: #D87D4A;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  margin-top: 92px;
-  margin-bottom: 140px;
+  margin: 92px 24px 140px 24px;
   text-align: center;
   padding: 55px 0;
 }
@@ -196,4 +197,43 @@ p {
   text-transform: uppercase;
   cursor: pointer;
   margin: 0 auto;
+}
+
+/* <!-- Speaker Section --> */
+
+.speaker-section {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-image: url('images/home/mobile/image-speaker-zx7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 24px;
+  height: 320px;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 25px;
+}
+
+.speaker-section
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.speaker-section
+.btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
 }
