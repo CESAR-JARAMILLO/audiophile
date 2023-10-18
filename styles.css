@@ -229,6 +229,7 @@ h2 {
 
 .speaker-section
 .btn {
+  width: 160px;
   background-color: transparent;
   border: 1px solid #000;
   color: #000;
@@ -236,4 +237,53 @@ h2 {
   font-weight: bold;
   padding: 15px 32px;
   text-align: center;
+}
+
+/* Earphone Section */
+.earphones-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 24px;
+}
+
+.earphones-section .img {
+  height: 200px;
+  width: 100%;
+  background-image: url('images/home/mobile/image-earphones-yx1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.earphones-section .content {
+  height: 200px;
+  background-color: #f1f1f1;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.earphones-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+.earphones-section .btn {
+  width: 160px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
 }

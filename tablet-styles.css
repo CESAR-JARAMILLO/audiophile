@@ -70,5 +70,23 @@
 
 .left-box {
   margin-left: 62px;
-}  
+}
+
+/* Earphone Section */
+.earphones-section {
+  flex-direction: row;
+  margin: 32px 40px;
+}
+
+.earphones-section .img {
+  height: 320px;
+  background-image: url('images/home/desktop/image-earphones-yx1.jpg');
+  width: 50%;
+}
+
+.earphones-section .content {
+  height: 320px;
+  padding-left: 42px;
+  width: 50%;
+}
 }

@@ -116,5 +116,11 @@ img {
 
 .left-box {
   margin-left: 62px;
-}  
+} 
+
+/* Earphone Section */
+.earphones-section {
+  flex-direction: row;
+  margin: 48px 165px;
+}
 }
