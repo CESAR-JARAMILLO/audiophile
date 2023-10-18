@@ -59,5 +59,16 @@
   .featured-product-content {
     width: 350px;
   }
-  
+
+  /* <!-- Speaker Section --> */
+
+.speaker-section {
+  background-image: url('images/home/tablet/image-speaker-zx7.jpg');
+  margin: 32px 40px;
+  height: 320px;
+}
+
+.left-box {
+  margin-left: 62px;
+}  
 }

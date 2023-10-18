@@ -105,4 +105,16 @@ img {
 .btn {
   margin: 0;
 }
+
+ /* <!-- Speaker Section --> */
+
+ .speaker-section {
+  background-image: url('images/home/desktop/image-speaker-zx7.jpg');
+  margin: 48px 165px;
+  height: 320px;
+}
+
+.left-box {
+  margin-left: 62px;
+}  
 }
