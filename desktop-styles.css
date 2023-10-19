@@ -123,4 +123,23 @@ img {
   flex-direction: row;
   margin: 48px 165px;
 }
+
+/* <!-- About Section --> */
+.about-section {
+  flex-direction: row-reverse;
+  gap: 125px;
+  margin: 0 165px;
+}
+
+.about-section
+.img {
+  background-image: url('images/shared/desktop/image-best-gear.jpg');
+  height: 588px;
+  width: 50%;
+}
+
+.about-content {
+ text-align: left;
+  width: 50%;
+}
 }

@@ -89,4 +89,20 @@
   padding-left: 42px;
   width: 50%;
 }
+
+/* <!-- About Section --> */
+.about-section {
+  gap: 64px;
+  margin: 0 40px;
+}
+
+.about-section
+.img {
+  background-image: url('images/shared/tablet/image-best-gear.jpg');
+}
+
+.about-content h2 {
+  font-size: 40px;
+}
+
 }
