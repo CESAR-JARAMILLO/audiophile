@@ -105,4 +105,47 @@
   font-size: 40px;
 }
 
+/* <!-- Footer --> */
+
+.footer {
+  align-items: start;
+  gap: 32px;
+  padding: 56px 40px 0 40px;
+  text-align: start;
+}
+
+.footer-links ul {
+  flex-direction: row;
+  gap: 34px;
+}
+
+.bottom-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 46px;
+  margin-top: 0;
+}
+
+.desktop-footer-flex-top {
+  gap: 34px;
+}
+
 }

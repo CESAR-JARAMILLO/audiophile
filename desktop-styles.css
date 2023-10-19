@@ -136,10 +136,61 @@ img {
   background-image: url('images/shared/desktop/image-best-gear.jpg');
   height: 588px;
   width: 50%;
+  margin-bottom: 200px;
 }
 
 .about-content {
  text-align: left;
   width: 50%;
 }
+
+/* <!-- Footer --> */
+
+.footer {
+  gap: 36px;
+  padding: 70px 165px 48px 165px;
+}
+
+.bottom-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-socials {
+  display: none;
+}
+
+.desktop-footer-flex-top {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.desktop-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-text {
+  width: 540px;
+}
+
+.desktop-footer-socials {
+  display: flex;
+  gap: 24px;
+  align-self: flex-end;
+}
+
 }
