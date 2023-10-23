@@ -31,7 +31,7 @@
   }
 
   .hero {
-    background-image: url('images/home/desktop/image-hero.jpg');
+    background-image: url('../images/home/desktop/image-hero.jpg');
     height: 800px;
     flex-direction: row;
   }
@@ -82,7 +82,7 @@
 .featured-product-image {
   height: 494px;
   width: 410px;
-  background-image: url('images/home/desktop/image-speaker-zx9.png');
+  background-image: url('../images/home/desktop/image-speaker-zx9.png');
 }
 
 .featured-product-image 
@@ -110,7 +110,7 @@ img {
  /* <!-- Speaker Section --> */
 
  .speaker-section {
-  background-image: url('images/home/desktop/image-speaker-zx7.jpg');
+  background-image: url('../images/home/desktop/image-speaker-zx7.jpg');
   margin: 48px 165px;
   height: 320px;
 }
@@ -130,19 +130,25 @@ img {
   flex-direction: row-reverse;
   gap: 125px;
   margin: 0 165px;
+  height: 588px;
+  margin-bottom: 200px;
 }
 
 .about-section
 .img {
-  background-image: url('images/shared/desktop/image-best-gear.jpg');
+  background-image: url('../images/shared/desktop/image-best-gear.jpg');
   height: 588px;
   width: 50%;
-  margin-bottom: 200px;
 }
 
 .about-content {
  text-align: left;
   width: 50%;
+  margin: auto;
+}
+
+.about-content p {
+  margin: 0;
 }
 
 /* <!-- Footer --> */

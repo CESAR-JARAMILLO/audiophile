@@ -24,7 +24,7 @@ body {
 
 .hero {
   height: 620px;
-  background-image: url('images/home/mobile/image-header.jpg');
+  background-image: url('../images/home/mobile/image-header.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ a {
   justify-content: center;
   height: 208px;
   width: 172px;
-  background-image: url('images/home/mobile/image-speaker-zx9.png');
+  background-image: url('../images/home/mobile/image-speaker-zx9.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@ p {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  background-image: url('images/home/mobile/image-speaker-zx7.jpg');
+  background-image: url('../images/home/mobile/image-speaker-zx7.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -263,7 +263,7 @@ h2 {
 .earphones-section .img {
   height: 200px;
   width: 100%;
-  background-image: url('images/home/mobile/image-earphones-yx1.jpg');
+  background-image: url('../images/home/mobile/image-earphones-yx1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -314,7 +314,7 @@ h2 {
 .img {
   height: 300px;
   width: 100%;
-  background-image: url('images/shared/mobile/image-best-gear.jpg');
+  background-image: url('../images/shared/mobile/image-best-gear.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

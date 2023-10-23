@@ -5,7 +5,7 @@
   }
 
   .hero {
-    background-image: url('images/home/tablet/image-header.jpg');
+    background-image: url('../images/home/tablet/image-header.jpg');
     height: 720px;
   }
 
@@ -47,7 +47,7 @@
   .featured-product-image {
     height: 238px;
     width: 198px;
-    background-image: url('images/home/tablet/image-speaker-zx9.png');
+    background-image: url('../images/home/tablet/image-speaker-zx9.png');
   }
   
   .featured-product-image 
@@ -69,7 +69,7 @@
   /* <!-- Speaker Section --> */
 
 .speaker-section {
-  background-image: url('images/home/tablet/image-speaker-zx7.jpg');
+  background-image: url('../images/home/tablet/image-speaker-zx7.jpg');
   margin: 32px 40px;
   height: 320px;
 }
@@ -86,7 +86,7 @@
 
 .earphones-section .img {
   height: 320px;
-  background-image: url('images/home/desktop/image-earphones-yx1.jpg');
+  background-image: url('../images/home/desktop/image-earphones-yx1.jpg');
   width: 50%;
 }
 
@@ -104,7 +104,7 @@
 
 .about-section
 .img {
-  background-image: url('images/shared/tablet/image-best-gear.jpg');
+  background-image: url('../images/shared/tablet/image-best-gear.jpg');
 }
 
 .about-content h2 {
