@@ -153,6 +153,19 @@ a {
   padding: 55px 0;
 }
 
+.featured-product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 208px;
+  width: 172px;
+  background-image: url('images/home/mobile/image-speaker-zx9.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
 .featured-product-image 
 img {
   height: 208px;

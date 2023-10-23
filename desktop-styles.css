@@ -76,12 +76,13 @@
   margin: 0 165px;
   gap: 64px;
   padding: 0;
+  height: 560px;
 }
 
 .featured-product-image {
-  height: 560px;
-  display: flex;
-  align-items: end;
+  height: 494px;
+  width: 410px;
+  background-image: url('images/home/desktop/image-speaker-zx9.png');
 }
 
 .featured-product-image 

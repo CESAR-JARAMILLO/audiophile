@@ -43,6 +43,12 @@
     margin: 0 40px;
     gap: 64px;
   }
+
+  .featured-product-image {
+    height: 238px;
+    width: 198px;
+    background-image: url('images/home/tablet/image-speaker-zx9.png');
+  }
   
   .featured-product-image 
   img {
@@ -103,6 +109,10 @@
 
 .about-content h2 {
   font-size: 40px;
+}
+
+.about-content p {
+  margin: 64px 58px 96px 58px;
 }
 
 /* <!-- Footer --> */
